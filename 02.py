@@ -1,3 +1,6 @@
+# 2.
+# Counting the Number of Characters
+
 def input_len():
     s = input()
     if len(s) == 0:
