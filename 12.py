@@ -4,7 +4,7 @@
 def input_amount():
     try:
         amount = float(input())
-        return(amount)
+        return amount
     except ValueError:
         print("Error. Input must be a number.")
         return input_amount()
