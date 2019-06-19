@@ -1,24 +1,12 @@
 # 8.
 # Pizza Party
 
-def input_people():
-    try:
-        return int(input())
-    except ValueError:
-        print("Error. Input must be a number.")
-        return input_people()
-
-def input_pizzas():
-    try:
-        return int(input())
-    except ValueError:
-        print("Error. Input must be a number.")
-        return input_pizzas()
+from inputplus import input_int
 
 print("How many people?")
-people = input_people()
+people = input_int()
 print("How many pizzas do you have?")
-pizzas = input_pizzas()
+pizzas = input_int()
 
 slices = 8 * pizzas // people
 leftovers = 8 * pizzas % people

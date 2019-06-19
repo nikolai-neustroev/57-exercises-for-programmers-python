@@ -1,21 +1,14 @@
 # 22.
 # Comparing Numbers
 
+from inputplus import input_float
+
 vec = []
-
-
-def input_number():
-    try:
-        amount = float(input())
-        return amount
-    except ValueError:
-        print("Error. Input must be a number.")
-        return input_number()
 
 
 def append_vec():
     print("Please enter a number.")
-    tmp = input_number()
+    tmp = input_float()
     if tmp in vec:
         print("You've already entered this number. Please try another one.")
         return append_vec()
@@ -24,7 +17,7 @@ def append_vec():
 
 
 print("How many numbers do you want to compare?")
-n = int(input_number())
+n = int(input_float())
 
 while len(vec) < n:
     append_vec()

@@ -1,20 +1,12 @@
 # 17.
 # Blood Alcohol Calculator
 
+from inputplus import input_float
 import inquirer
 
 
-def input_amount():
-    try:
-        amount = float(input())
-        return amount
-    except ValueError:
-        print("Error. Input must be a number.")
-        return input_amount()
-
-
 print("Enter your weight (lb.):")
-weight = input_amount()
+weight = input_float()
 
 question = [inquirer.List("gender_choice",
                           message="Please choose your gender",
@@ -25,13 +17,13 @@ answer = inquirer.prompt(question)
 gender = answer["gender_choice"]
 
 print("Enter number of drinks:")
-n_drinks = input_amount()
+n_drinks = input_float()
 
 print("Enter amount of alcohol by volume of the drinks consumed (oz):")
-alcohol = input_amount()
+alcohol = input_float()
 
 print("Enter amount of time since your last drink:")
-time = input_amount()
+time = input_float()
 
 if gender is "F":
     r = 0.66

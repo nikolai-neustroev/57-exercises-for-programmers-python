@@ -1,16 +1,8 @@
 # 26.
 # Months to Pay Off a Credit Card
 
+from inputplus import input_float
 import math
-
-
-def input_number():
-    try:
-        amount = float(input())
-        return amount
-    except ValueError:
-        print("Error. Input must be a number.")
-        return input_number()
 
 
 def calc_months(balance, apr, mpayment):
@@ -24,13 +16,13 @@ def calc_months(balance, apr, mpayment):
 
 
 print("What is your balance?")
-user_balance = input_number()
+user_balance = input_float()
 
 print("What is the APR on the card (as percent)?")
-user_apr = input_number() / 100.0
+user_apr = input_float() / 100.0
 
 print("What is the monthly payment you can make?")
-user_mpayment = input_number()
+user_mpayment = input_float()
 
 user_nmonths = math.ceil(calc_months(user_balance, user_apr, user_mpayment))
 

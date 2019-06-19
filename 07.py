@@ -1,25 +1,21 @@
 # 7.
 # The Area of a Rectangular Room
 
+from inputplus import append_vec_float
+
 f2m = 0.09290304
 m2f = 3.280839895
 dims = []
 
-def input_dim():
-    try:
-        dims.append(float(input()))
-    except ValueError:
-        print("Error. Age must be a number.")
-        return input_dim()
 
 def choose():
     print("Please choose the prefered unit. Press \"m\" for meter or \"f\" for foot.")
     unit = input()
     if unit == "m":
         print("What is the length of the room in meters?")
-        input_dim()
+        append_vec_float(dims)
         print("What is the width of the room in meters?")
-        input_dim()
+        append_vec_float(dims)
 
         area_m = dims[0] * dims[1]
         area_f = round(area_m * m2f, 3)
@@ -31,9 +27,9 @@ The area is
 
     elif unit == "f":
         print("What is the length of the room in feet?")
-        input_dim()
+        append_vec_float(dims)
         print("What is the width of the room in feet?")
-        input_dim()
+        append_vec_float(dims)
 
         area_f = dims[0] * dims[1]
         area_m = round(area_f * f2m, 3)

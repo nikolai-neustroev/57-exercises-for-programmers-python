@@ -2,20 +2,14 @@
 # Retirement Calculator.
 
 import datetime
+from inputplus import append_vec_int
 
 age = []
 
-def input_age():
-    try:
-        age.append(int(input()))
-    except ValueError:
-        print("Error. Age must be a number.")
-        return input_age()
-
 print("What is your current age?")
-input_age()
+append_vec_int(age)
 print("At what age would you like to retire?")
-input_age()
+append_vec_int(age)
 
 current_year = datetime.datetime.now().year
 year_diff = age[1] - age[0]

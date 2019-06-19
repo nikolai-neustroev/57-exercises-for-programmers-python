@@ -1,17 +1,8 @@
 # 20.
 # Multistate Sales Tax Calculator
 
+from inputplus import input_float
 import math
-
-
-def input_amount():
-    try:
-        amount = float(input())
-        return amount
-    except ValueError:
-        print("Error. Input must be a number.")
-        return input_amount()
-
 
 tax_rate = {
     "IL": {"empty": 0.08},
@@ -27,7 +18,7 @@ tax_rate = {
 }
 
 print("What is the order amount?")
-oa = input_amount()
+oa = input_float()
 
 print("What state do you live in?")
 state = str(input()).upper()

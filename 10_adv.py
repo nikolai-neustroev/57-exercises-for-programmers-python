@@ -3,33 +3,27 @@
 import numpy as np
 
 tax_rate = 0.055
-price = np.array([])
-quantity = np.array([])
+user_price = np.array([])
+user_quantity = np.array([])
 
-def input_price(price):
+
+def input_value(value):
     try:
-        price = np.append(price, float(input()))
-        return price
+        value = np.append(value, float(input()))
+        return value
     except ValueError:
         print("Error. Input must be a number.")
-        return input_price(price)
+        return input_value(value)
 
-def input_quantity(quantity):
-    try:
-        quantity = np.append(quantity, float(input()))
-        return quantity
-    except ValueError:
-        print("Error. Input must be a number.")
-        return input_quantity(quantity)
 
 def ask_customer(price, quantity):
     print("Would you like to continue shopping? [y/n]")
     continue_shopping = input()
     if continue_shopping == "y":
         print("Enter the price of an item:")
-        price = input_price(price)
+        price = input_value(price)
         print("Enter the quantity of an item:")
-        quantity = input_quantity(quantity)
+        quantity = input_value(quantity)
         return ask_customer(price, quantity)
     elif continue_shopping == "n":
         subtotal = np.sum(price * quantity)
@@ -40,8 +34,9 @@ def ask_customer(price, quantity):
     else:
         return ask_customer(price, quantity)
 
+
 print("Enter the price of an item:")
-price = input_price(price)
+user_price = input_value(user_price)
 print("Enter the quantity of an item:")
-quantity = input_quantity(quantity)
-ask_customer(price, quantity)
+user_quantity = input_value(user_quantity)
+ask_customer(user_price, user_quantity)

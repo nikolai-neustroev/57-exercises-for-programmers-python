@@ -1,14 +1,7 @@
 # 19.
 # BMI Calculator
 
-
-def input_amount():
-    try:
-        amount = float(input())
-        return amount
-    except ValueError:
-        print("Error. Input must be a number.")
-        return input_amount()
+from inputplus import input_float
 
 
 def calc_bmi():
@@ -16,19 +9,19 @@ def calc_bmi():
     syst = str(input()).upper()
     if syst == "I":
         print("Please enter your height (first feet, then inches).")
-        feet = input_amount()
-        inches = input_amount()
+        feet = input_float()
+        inches = input_float()
         height = feet * 12.0 + inches
         print("Please enter your weight (lb).")
-        weight = input_amount()
+        weight = input_float()
         bmi = weight / (height**2) * 703.0
         print(f"Your BMI is {round(bmi, 1)}.")
         return bmi
     elif syst == "M":
         print("Please enter your height (cm).")
-        height = input_amount()
+        height = input_float()
         print("Please enter your weight (kg).")
-        weight = input_amount()
+        weight = input_float()
         bmi = weight / ((height/100.0)**2)
         print(f"Your BMI is {round(bmi, 1)}.")
         return bmi
