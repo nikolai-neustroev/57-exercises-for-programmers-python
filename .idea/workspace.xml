@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e1ba329-f375-4627-a4d0-3d5edde56137" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/28.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/29.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="3fca3ecb-cb99-4819-9f3e-d1d1eaa9f540" name="Adding exercises 17 and 18" comment="" />
@@ -17,17 +17,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inputplus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="32" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/28.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="3" selection-start-line="3" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/28.py">
+        <entry file="file://$PROJECT_DIR$/29.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="510">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -81,6 +90,7 @@
         <option value="$PROJECT_DIR$/26.py" />
         <option value="$PROJECT_DIR$/inputplus.py" />
         <option value="$PROJECT_DIR$/28.py" />
+        <option value="$PROJECT_DIR$/29.py" />
       </list>
     </option>
   </component>
@@ -126,29 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.28">
-    <configuration name="19" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="57-exercises-for-programmers-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.29">
     <configuration name="20" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="57-exercises-for-programmers-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,13 +225,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="29" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="57-exercises-for-programmers-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/29.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.29" />
         <item itemvalue="Python.28" />
         <item itemvalue="Python.26" />
         <item itemvalue="Python.22" />
         <item itemvalue="Python.20" />
-        <item itemvalue="Python.19" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +285,8 @@
       <workItem from="1560942640350" duration="2982000" />
       <workItem from="1560956686852" duration="5753000" />
       <workItem from="1561045294155" duration="762000" />
-      <workItem from="1561202865468" duration="1307000" />
+      <workItem from="1561202865468" duration="1350000" />
+      <workItem from="1561299626920" duration="605000" />
     </task>
     <task id="LOCAL-00001" summary="Adding exercise 16">
       <created>1560308047811</created>
@@ -347,11 +358,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560962906958</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adding exercise 28">
+      <created>1561204723695</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1561204723695</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58087000" />
+    <option name="totallyTimeSpent" value="58735000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -364,8 +382,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1370" height="742" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.23636363" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.24015151" />
       <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.18712121" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -447,7 +466,8 @@
     <MESSAGE value="Adding exercise 26" />
     <MESSAGE value="Adding exercise 27" />
     <MESSAGE value="Taking out input functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Taking out input functions" />
+    <MESSAGE value="Adding exercise 28" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding exercise 28" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$19.coverage" NAME="19 Coverage Results" MODIFIED="1560962086366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -456,7 +476,7 @@
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$26.coverage" NAME="26 Coverage Results" MODIFIED="1560962449364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$22.coverage" NAME="22 Coverage Results" MODIFIED="1560962345760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$13.coverage" NAME="13 Coverage Results" MODIFIED="1560961792406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$28.coverage" NAME="28 Coverage Results" MODIFIED="1561204636624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$28.coverage" NAME="28 Coverage Results" MODIFIED="1561300240275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$20.coverage" NAME="20 Coverage Results" MODIFIED="1560962206327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$14.coverage" NAME="14 Coverage Results" MODIFIED="1560961807777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$23.coverage" NAME="23 Coverage Results" MODIFIED="1560643677257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -470,6 +490,7 @@
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$11_adv.coverage" NAME="11_adv Coverage Results" MODIFIED="1560960306490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$10_adv.coverage" NAME="10_adv Coverage Results" MODIFIED="1560958754176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$07.coverage" NAME="07 Coverage Results" MODIFIED="1560957692054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$29.coverage" NAME="29 Coverage Results" MODIFIED="1561300278696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$25.coverage" NAME="25 Coverage Results" MODIFIED="1560864404375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$12.coverage" NAME="12 Coverage Results" MODIFIED="1560960509375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -692,17 +713,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inputplus.py">
+    <entry file="file://$PROJECT_DIR$/28.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/28.py">
+    <entry file="file://$PROJECT_DIR$/inputplus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
