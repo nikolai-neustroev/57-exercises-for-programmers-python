@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e1ba329-f375-4627-a4d0-3d5edde56137" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/30.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30.py" beforeDir="false" afterPath="$PROJECT_DIR$/30.py" afterDir="false" />
     </list>
     <list id="3fca3ecb-cb99-4819-9f3e-d1d1eaa9f540" name="Adding exercises 17 and 18" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/30.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="380">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -114,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,6 +125,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +297,8 @@
       <workItem from="1561045294155" duration="762000" />
       <workItem from="1561202865468" duration="1350000" />
       <workItem from="1561299626920" duration="743000" />
-      <workItem from="1561374607304" duration="1875000" />
+      <workItem from="1561374607304" duration="1912000" />
+      <workItem from="1561407718810" duration="3406000" />
     </task>
     <task id="LOCAL-00001" summary="Adding exercise 16">
       <created>1560308047811</created>
@@ -383,11 +384,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561300341713</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Adding exercise 30">
+      <created>1561388185061</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1561388185061</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60748000" />
+    <option name="totallyTimeSpent" value="64191000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,20 +410,20 @@
     <frame x="-2" y="0" width="1370" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.2439394" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.24772727" />
       <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.18712121" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924242" visible="true" weight="0.33766234" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848485" visible="true" weight="0.33766234" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848485" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32954547" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924242" weight="0.32954547" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50151515" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49848485" weight="0.32954547" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50151515" side_tool="true" weight="0.33766234" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49848485" weight="0.32792208" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="13" />
@@ -486,7 +494,8 @@
     <MESSAGE value="Taking out input functions" />
     <MESSAGE value="Adding exercise 28" />
     <MESSAGE value="Adding exercise 29" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding exercise 29" />
+    <MESSAGE value="Adding exercise 30" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding exercise 30" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$19.coverage" NAME="19 Coverage Results" MODIFIED="1560962086366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -508,7 +517,7 @@
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$15.coverage" NAME="15 Coverage Results" MODIFIED="1560518822481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$11_adv.coverage" NAME="11_adv Coverage Results" MODIFIED="1560960306490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$10_adv.coverage" NAME="10_adv Coverage Results" MODIFIED="1560958754176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$30.coverage" NAME="30 Coverage Results" MODIFIED="1561376044872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$30.coverage" NAME="30 Coverage Results" MODIFIED="1561411120440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$07.coverage" NAME="07 Coverage Results" MODIFIED="1560957692054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$29.coverage" NAME="29 Coverage Results" MODIFIED="1561374870692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/57_exercises_for_programmers_python$25.coverage" NAME="25 Coverage Results" MODIFIED="1560864404375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -756,8 +765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/30.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="380">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
