@@ -21,7 +21,7 @@ def input_int():
     try:
         return int(input())
     except ValueError:
-        print("Error. Input must be a number.")
+        print("Error. Input must be a whole number.")
         return input_int()
 
 
