@@ -21,21 +21,23 @@ def spc_pass(length):
     return "".join(random.choice(spc) for i in range(length))
 
 
-def inp_num(pass_len):
-    print("How many numbers?")
-    len_num = int(input_int())
-    if len_num >= pass_len:
-        print("The number of digits cannot exceed total number of symbols.")
-        return inp_num(pass_len)
+def inp_dig(pass_len):
+    print("How many digits?")
+    len_dig = int(input_int())
+    if len_dig >= pass_len:
+        print("""There must be at least one digit, one special character, and one letter.
+The number of digits cannot exceed total number of symbols.""")
+        return inp_dig(pass_len)
     else:
-        return len_num
+        return len_dig
 
 
 def inp_spc(pass_len):
     print("How many special characters?")
     len_spc = int(input_int())
     if len_spc >= pass_len:
-        print("The number of special characters cannot exceed total number of symbols.")
+        print("""There must be at least one digit, one special character, and one letter.
+The number of special characters cannot exceed total number of symbols.""")
         return inp_spc(pass_len)
     else:
         return len_spc
@@ -44,15 +46,16 @@ def inp_spc(pass_len):
 print("Input length:")
 usr_len = int(input_int())
 
-len_num = inp_num(usr_len)
+usr_len_dig = inp_dig(usr_len)
 
-len_spc = inp_spc(usr_len)
+# Updating usr_len to prevent usr_len_spc going out of the limit
+usr_len = usr_len - usr_len_dig
 
-print(len_num)
-len_spc
-chr_len = usr_len - len_num - len_spc
+usr_len_spc = inp_spc(usr_len)
 
-password = chr_pass(chr_len) + num_pass(len_num) + spc_pass(len_spc)
+chr_len = usr_len - usr_len_spc
+
+password = chr_pass(chr_len) + num_pass(usr_len_dig) + spc_pass(usr_len_spc)
 password = list(password)
 password = random.sample(password, len(password))
 password = "".join(password)
